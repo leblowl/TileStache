@@ -70,5 +70,5 @@ def water(features):
     return _sort_by_area_then_id(features)
 
 
-def routes(features):
+def transit(features):
     return _sort_features_by_key(features, _by_feature_id)
